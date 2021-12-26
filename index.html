@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculators</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="containt">
+        <div class="container">
+            <a href="./LiveAnsCalculator/index.html" class="hoverEffect"><img src="./Images/LiveAnsCalculator.png"
+                    alt="LiveAnsCalculator" class="designCalculator imageSize"></a>
+            <a href="./PerfectCalculator/index.html" class="hoverEffect"><img src="./Images/PerfectCalculator.png"
+                    alt="PerfectCalculator" class="designCalculator imageSize"></a>
+            <a href="./StanderCalculater/index.html" class="hoverEffect"><img src="./Images/StanderCalculater.png"
+                    alt="StanderCalculater" class="designCalculator imageSize"></a>
+            <a href="./SimpleCalculater/CalculaterTwoNu.html" class="hoverEffect"> <img
+                    src="./Images/CalculaterTwoNu.png" alt="CalculaterTwoNu" class="designCalculator imageSize"></a>
+            <a href="./SimpleCalculater/CalcuEqun.html" class="hoverEffect"> <img src="./Images/CalcuEqun.png"
+                    alt="CalcuEqun" class="designCalculator imageSize"></a>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".hoverEffect"), {
+            max: 25,
+            speed: 400
+        });
+
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".hoverEffect"));
+    </script>
+</body>
+
+</html>
